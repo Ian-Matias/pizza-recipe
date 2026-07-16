@@ -1,0 +1,71 @@
+[
+  {
+    "id": "0001",
+    "type": "pizza",
+    "name": "Cheese",
+    "price": 5.99,
+    "ingredients": {
+      "protein": {
+        "name": "None",
+        "preparation": "Baked"
+      },
+      "salsa": {
+        "name": "Tomato Salsa",
+        "spiciness": "None"
+      },
+      "toppings": [
+        {
+          "name": "Cheese",
+          "quantity": "1 cup",
+          "ingredients": ["Mozarella", "Cheddar", "Provolone"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0002",
+    "type": "pizza",
+    "name": "Pepperoni",
+    "price": 7.99,
+    "ingredients": {
+      "protein": {
+        "name": "Pepperoni",
+        "preparation": "Baked"
+      },
+      "salsa": {
+        "name": "Tomato Salsa",
+        "spiciness": "Mild"
+      },
+      "toppings": [
+        {
+          "name": "Pepperoni",
+          "quantity": "1/4 cup",
+          "ingredients": ["Pepperoni"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0003",
+    "type": "pizza",
+    "name": "Pineapple",
+    "price": 9.99,
+    "ingredients": {
+      "protein": {
+        "name": "None",
+        "preparation": "Baked"
+      },
+      "salsa": {
+        "name": "Alfredo",
+        "spiciness": "None"
+      },
+      "toppings": [
+        {
+          "name": "Pineapple",
+          "quantity": "1/2 cup",
+          "ingredients": ["Pineapple", "Salt"]
+        }
+      ]
+    }
+  }
+]
